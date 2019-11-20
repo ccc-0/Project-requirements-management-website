@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:#000;
+    font-family: '仿宋';
+}
+img{
+    border-radius: 30px;
+}
+a{
+    color: #3366cc;
+}
+
+.the-top{
+    height: 700px;
+    width: 1530px;
+    border: 1px solid #ccc;
+    /* background: palevioletred; */
+}
+.top-head{
+    height: 60px;
+    line-height: 60px;
+    background-color: #339999;
+}
+.t1{
+    float: left;
+    font-size: 30px;
+    /* background: red; */
+}
+.t2{
+    float: right;
+    font-size: 35px;
+    /* background: palegreen; */
+}
+.center{
+    height: calc(100% - 60px);
+    border: 1px solid #ccc;
+    background: #339999b0;
+}
+.center-head{
+    height: 50px;
+    width: 100%;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 50px;
+    background:#339999d2;
+}
+.center-head>span{
+    float: left;
+}
+.head-right{
+    float: right;
+}
+.head-right>input{
+    height: 35px;
+    width: 400px;
+    font-size: 20px;
+}
+.head-right>input:last-child{
+    /* margin-top: 5px; */
+    width: 100px;
+    line-height: 35px;
+}
+.center-center{
+    width: 100%;
+    height: 280px;
+}
+.table{
+    width: 80%;
+    float: left;
+    font-size: 23px;
+}
+
+.dongjie:active{
+    color: #AD50D0;
+}
+.xinzeng{
+    font-size: 25px;
+    font-weight: bold;
+}
+.xinzeng>a>img{
+    border-radius: 0px;
+}
+
+.the-bottom{
+    height: 10px;
+    width: 100%;
+}

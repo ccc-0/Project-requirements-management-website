@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:#000;
+    font-family: '仿宋';
+}
+img{
+    border-radius: 30px;
+}
+a{
+    color: #3366cc;
+}
+
+.the-top{
+    height: 700px;
+    width: 1530px;
+    border: 1px solid #ccc;
+    /* background: palevioletred; */
+}
+.top-head{
+    height: 60px;
+    line-height: 60px;
+    background-color: #339999;
+}
+.t1{
+    float: left;
+    font-size: 30px;
+    /* background: red; */
+}
+.t2{
+    float: right;
+    font-size: 35px;
+    /* background: palegreen; */
+}
+.center{
+    height: calc(100% - 60px);
+    border: 1px solid #ccc;
+    background: #339999b0;
+}
+.center-1{
+    height: 140px;
+    width: 900px;
+    margin:  auto; 
+    margin-top: 10px;
+    border-bottom: 1px solid white;
+}
+.center-1>div{
+    float: left;
+}
+.center-1>div>a{
+    font-size: 25px;
+}
+.center-1>a{
+    font-size: 25px;
+    float: right;
+    margin-right: 100px;
+}
+.center-1>div{
+    font-size:15px;
+    color: #F2F2F2;
+}
+.center-2{
+    height: 250px;
+    width: 900px;
+    margin:  auto; 
+    border-bottom: 1px solid white;
+}
+.center-2-ming{
+    height: 120px;
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+}
+.ming{
+    height: 80px;
+    width: 100%;
+}
+.ming>img{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    float: left;
+}
+.ming>p{
+    font-size: 20px;
+    color:  #2a62d1;
+}
+.shijian{
+    font-size: 17px;
+}
+.center-2-neirong{
+    height: 220px;
+    width: 650px;
+    margin-top: 10px;
+    float: left;
+}
+.center-2-neirong>textarea{
+    height:100%;
+    width: 100%;
+}
+.center-4{
+    height: 250px;
+    width: 900px;
+    margin:  auto; 
+    font-size: 16px;
+}
+.center-4>textarea{
+    margin-top: 10px;
+    height: 160px;
+    width: 100%;
+    float: left;
+}
+.center-4>button{
+    font-size: 18px;
+    margin-top: 10px;
+}
+/* .center-4>button:first-child{
+    margin-left: 600px;
+} */
+.center-4>button:last-child{
+    margin-left: 10px;
+}
+
+.the-bottom{
+    height: 10px;
+    width: 100%;
+}

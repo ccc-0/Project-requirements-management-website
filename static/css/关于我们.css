@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:#000;
+    font-family: '仿宋';
+}
+img{
+    border-radius: 30px;
+}
+
+.the-top{
+    height: 700px;
+    width: 1530px;
+    border: 1px solid #ccc;
+    /* background: palevioletred; */
+}
+.top-head{
+    height: 60px;
+    line-height: 60px;
+    background-color: #339999;
+}
+.t1{
+    float: left;
+    font-size: 30px;
+    /* background: red; */
+}
+.t2{
+    float: right;
+    font-size: 35px;
+    /* background: palegreen; */
+}
+.center{
+    height: calc(100% - 60px);
+    border: 1px solid #ccc;
+}
+.c1{
+    height: 100%;
+    width: 320px;
+    float: left;
+    background-color: #339999b6 ;
+    border-left: 1px solid #ccc ;
+}
+.c1 div{
+    height: 100px;
+    width: 320px;
+    border: 1px solid white;
+}
+.c1 input{
+    height: 50px;
+    width: 225px;
+    /* float: left; */
+    border: 0px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    margin-left: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: #339999;
+}
+.c1>div:first-child{
+    margin-top: 50px;
+    border-top: none;
+}
+.c1 a{
+    color: black;
+}
+.c1>div:nth-child(5)>a>input{
+    color: yellow;
+    border: 1px solid yellow;
+}
+.c2{
+    height: 100%;
+    width: calc(100% - 320px);
+    float: right;
+    background-color:#339999c9; 
+}
+.c2-one{
+    height: 60px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.c2-one>p:first-child{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(7, 68, 160, 0.753);
+}
+.c2-one>p:last-child{
+    font-size: 30px;
+}
+.c2-two{
+    height: 60px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.c2-two>p:first-child{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(7, 68, 160, 0.753);
+}
+.c2-two>p:last-child{
+    font-size: 30px;
+}
+.c2-three{
+    margin-left: 400px;
+    margin-top: 200px; 
+    opacity: 0.7;
+}
+
+.the-bottom{
+    height: 10px;
+    width: 100%;
+}

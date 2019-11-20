@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/项目管理者需求详情.css')}}">
+</head>
+<body>
+    <div class="the-top">
+        <div class="top-head">
+            <div class="t1">
+                <img src="{{ url_for('static',filename='images/briup_logo.png')}}" alt="">
+                <span>上海杰普科技有限公司</span> 
+                <span>|项目需求管理管理系统</span>
+            </div>
+            <div class="t2">
+                <span>项目管理者</span>
+                <img src="{{ url_for('static',filename='images/头像.png')}}" alt="">
+                <span>fdgadsg</span>
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="center-head">
+                <span>&emsp;&emsp;评审需求</span>
+                <a href="#">返回首页</a>
+            </div>
+            <div class="center-1">
+                <a href="#">视频监控APP开发-视频尺寸需求</a>
+                <div>视频监控APP开发，基于Android和Ios移动平台的APP远程视频监控软件的开发<br>
+                    1.****************************** <br>
+                    2.****************************** <br>
+                    3.********************************</div>
+            </div>
+            <div class="center-2">
+                <div class="center-2-ming">
+                    <div class="ming">
+                        <img src="{{ url_for('static',filename='images/头像.png')}}" alt="">
+                        <p>Admin9527</p>
+                        <p>项目开发者</p>
+                    </div>
+                    <div class="shijian">
+                        2019-09-04 11:09:22
+                    </div>
+                </div>
+                <div class="center-2-neirong">
+                    <textarea name="" id="" >这个问题*************
+                    </textarea>
+                </div>
+            </div>
+            <div class="center-3">
+                <div class="center-3-ming">
+                    <div class="ming">
+                        <img src="{{ url_for('static',filename='images/头像.png')}}" alt="">
+                        <p>Admin Test</p>
+                        <p>软件开发者</p>
+                    </div>
+                    <div class="shijian">
+                        2019-09-03 12:19:42
+                    </div>
+                </div>
+                <div class="center-3-neirong">
+                    <textarea name="" id="" >这个问题*************
+                    </textarea>
+                </div>
+            </div>
+            <div class="center-4">
+                <textarea name="" id="" placeholder="整理需求"></textarea>
+                <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+                    发表
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="the-bottom">
+        <span>
+            <img src="{{ url_for('static',filename='images/杰普公司.png')}}" alt="">
+        </span>
+        <span>
+            <img src="{{ url_for('static',filename='images/杰普宣言.png')}}" alt="">
+        </span>
+    </div>
+    <script src="{{ url_for('static',filename='bootstrap-3.3.7/bootstrap-3.3.7/js/tests/vendor/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='bootstrap-3.3.7/bootstrap-3.3.7/dist/js/bootstrap.js')}}"></script>
+</body>
+</html>

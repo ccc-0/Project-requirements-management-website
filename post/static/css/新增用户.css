@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:#000;
+    font-family: '仿宋';
+}
+img{
+    border-radius: 30px;
+}
+a{
+    color: #3366cc;
+}
+
+.the-top{
+    height: 700px;
+    width: 1530px;
+    border: 1px solid #ccc;
+    /* background: palevioletred; */
+}
+.top-head{
+    height: 60px;
+    line-height: 60px;
+    background-color: #339999;
+}
+.t1{
+    float: left;
+    font-size: 30px;
+    /* background: red; */
+}
+.t2{
+    float: right;
+    font-size: 35px;
+    /* background: palegreen; */
+}
+.center{
+    height: calc(100% - 60px);
+    border: 1px solid #ccc;
+    background: #339999b0;
+}
+.center-head{
+    height: 50px;
+    width: 100%;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 50px;
+    background:#339999d2;
+}
+.center-head>a{
+    float: right;
+    margin-right: 170px;
+}
+
+.center-center{
+    height:480px;
+    width: 100%;
+    font-size: 20px;
+}
+.center-form{ 
+    height:400px;
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.input-group-1,.input-group-2,
+.input-group-3,.input-group-4{ 
+    height: 60px;
+    width: 640px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+.input-group-1-label,.input-group-2-label,
+.input-group-3-label,.input-group-4-label{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    float: left;
+}
+.shuru-1,.shuru-2,.shuru-3,.shuru-4{
+    height: 40px;
+    width:450px;
+    float: left;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.61);
+    border-radius: 10px;
+    background-image: url(../images/登录页面4.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position-x:2px;
+    background-position-y: 2px;
+}
+.shuru-2,.shuru-3{
+    background-image: url(../images/登录页面5.png);
+    background-position-y: 4px;
+}
+.shuru-4{
+    background-image: url(../images/书.png);
+}
+.shuru-1>input,.shuru-2>input,
+.shuru-3>input,.shuru-4>input{
+    height: 38px;
+    width: 410px;
+    border-radius: 10px;   
+    float: right;
+    border: 0px;
+}
+.xiala-group{ 
+    height: 60px;
+    width: 620px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+.xiala-group-label{
+    font-size: 20px;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    float: left;
+}
+/* .xiala-1,.xiala-2{
+    height: 40px;
+    width:450px;
+    float: left;
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.61);
+    border-radius: 10px;
+    background-image: url(../images/箭头.png);
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position-x:2px;
+    background-position-y: 2px;
+}
+.xiala-2{
+    background-image: url(../images/dai.png);
+} */
+.xiala-1,.xiala-2{
+    float: left;
+    height: 40px;
+    width: 450px;
+    border: 1px solid;
+    background: rgba(255, 255, 255, 0.61);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.xiala-1>img,.xiala-2>img{
+    float: left;
+    height: 34px;
+    width: 34px;
+    border-radius: 0px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+.the-select{
+    float: left;
+    height: 36px;
+    width: 410px;
+    border: 1px solid #ccc;
+    margin-top: 1px;
+    margin-left: 1px;
+    border-radius: 10px;
+}
+/* .col-lg-6{
+    height: 38px;
+    width: 410px;
+    border-radius: 10px;   
+    float: right;
+    border: 0px;
+} */
+.center-center>button{
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+}
+.center-center>button{
+    margin-left: 800px;
+    margin-top: 10px;
+}
+.center-center>button:last-child{
+    margin-left: 20px;
+}
+
+.the-bottom{
+    height: 10px;
+    width: 100%;
+}

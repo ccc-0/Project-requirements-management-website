@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:#000;
+    font-family: '仿宋';
+}
+img{
+    border-radius: 30px;
+}
+
+.the-top{
+    height: 700px;
+    width: 1530px;
+    border: 1px solid #ccc;
+    /* background: palevioletred; */
+}
+.top-head{
+    height: 60px;
+    line-height: 60px;
+    background-color: #339999;
+}
+.t1{
+    float: left;
+    font-size: 30px;
+    /* background: red; */
+}
+.t2{
+    float: right;
+    font-size: 35px;
+    /* background: palegreen; */
+}
+.center{
+    height: calc(100% - 60px);
+    border: 1px solid #ccc;
+}
+.c1{
+    height: 100%;
+    width: 320px;
+    float: left;
+    background-color: #339999b6 ;
+    border-left: 1px solid #ccc ;
+}
+.c1 div{
+    height: 100px;
+    width: 320px;
+    border: 1px solid white;
+}
+.c1 input{
+    height: 50px;
+    width: 225px;
+    /* float: left; */
+    border: 0px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    margin-left: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: #339999;
+}
+.c1>div:first-child{
+    margin-top: 50px;
+    border-top: none;
+}
+.c1>div:nth-child(2)>input{
+    color: yellow;
+    border: 1px solid yellow;
+}
+.c2{
+    height: 100%;
+    width: calc(100% - 320px);
+    float: right;
+    background-color:#339999c9; 
+}
+.c2-head{
+    height: 50px;
+    background-color:#339999f8; 
+    
+}
+.c2-head>span:nth-child(1){
+    font-size: 35px;
+    float: left;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.c2-head-left{
+    float: left;
+    height: 50px;
+    width: 500px;
+}
+.c2-head-left>span{
+    font-size: 25px;
+    float: left;
+    margin-left: 20px;
+    line-height: 50px;
+}
+.xiala{
+    float: left;
+    height: 40px;
+    width: 245px;
+    border: 1px solid;
+    background: white;
+    margin-top: 5px;
+}
+.xiala>img{
+    float: left;
+    height: 34px;
+    width: 34px;
+    border-radius: 0px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+.the-select{
+    float: left;
+    height: 35px;
+    width: 200px;
+    border: 1px solid #ccc;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+/* .dropdown{
+    height: 40px;
+    width: 300px;
+    float: left;
+    background: white;
+    line-height: 40px;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+.c2-img{
+    height: 35px;
+    width: 35px;
+    /* vertical-align: middle; */
+    /* float: left;
+    border-radius: 0px;
+    margin-top: 2px;
+}
+.dropdown>button{
+    width: 260px;
+} */ 
+.c2-right{
+    font-size: 25px;
+    height: 40px;
+    width: 312px;
+    float:right;
+    background: white;
+    line-height: 40px;
+    margin-top: 5px;
+    margin-right: 100px;
+    border: 1px solid black;
+}
+.c2-right>input{
+    height: 35px;
+    width: 245px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.c2-right>.btn-group{
+    height: 30px;
+    width: 60px;
+    float: left;
+    margin-top: 3px;
+}
+.c2-center{
+    height:586px;
+    width: 1206px;
+    float: left;
+}
+.c2-center>div{
+    height: 160px;
+    width: 1100px;
+    margin: 0 auto;
+    border: 1px white;
+    border-style: none none solid none; 
+}
+
+.the-bottom{
+    height: 10px;
+    width: 100%;
+}

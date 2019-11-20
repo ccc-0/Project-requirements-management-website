@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/新增用户.css')}}">
+</head>
+<body>
+    <div class="the-top">
+        <div class="top-head">
+            <div class="t1">
+                <img src="{{ url_for('static',filename='images/briup_logo.png')}}" alt="">
+                <span>需求管理系统后台管理</span> 
+            </div>
+            <div class="t2">
+                <span>管理员</span>
+                <img src="{{ url_for('static',filename='images/头像.png')}}" alt="">
+                <span>fdgadsg</span>
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="center-head">
+                <span>&emsp;&emsp;新增项目组</span>
+                <a href="#">返回首页</a>
+            </div>
+            <div class="center-center">
+                <form class="center-form">
+                    <div class="input-group-1">     
+                        <label class="input-group-1-label" for="">账&emsp;号：</label>
+                        <div class="shuru-1">
+                            <input type="text" id="user" name="username" placeholder="请输入项目组名">
+                        </div>
+                    </div>
+                    <div class="input-group-2">     
+                        <label class="input-group-1-label" for="">密&emsp;码：</label>
+                        <div class="shuru-2">
+                            <input type="text" id="user" name="username" placeholder="请输入项目组名">
+                        </div>
+                    </div>
+                    <div class="input-group-3">     
+                        <label class="input-group-1-label" for="">确认密码：</label>
+                        <div class="shuru-3">
+                            <input type="text" id="user" name="username" placeholder="请输入项目组名">
+                        </div>
+                    </div>
+                    <div class="input-group-4">     
+                        <label class="input-group-1-label" for="">昵&emsp;称：</label>
+                        <div class="shuru-4">
+                            <input type="text" id="user" name="username" placeholder="请输入项目组名">
+                        </div>
+                    </div>
+                    <div class="xiala-group">
+                        <label class="xiala-group-label">角&emsp;色：</label>
+                        <div class="xiala-1">
+                            <!-- <div class="col-lg-6">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" aria-label="..." value="软件客户">
+                                    <div class="input-group-btn">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="caret"></span></button>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#">Action</a></li>
+                                        <li><a href="#">Another action</a></li>
+                                        <li><a href="#">Something else here</a></li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="#">Separated link</a></li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <img src="{{ url_for('static',filename='images/箭头.png')}}" alt="" >
+                            <select name="xiangmu" id=""class="the-select" >
+                                <option value="">软件客户</option>
+                                <option value="">软件开发者</option>
+                                <option value="">项目管理者</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="xiala-group">
+                            <label class="xiala-group-label">所属组：</label>
+                            <div class="xiala-2">
+                                <!-- <div class="col-lg-6">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" aria-label="..." value="">
+                                        <div class="input-group-btn">
+                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <span class="caret"></span></button>
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li><a href="#">Action</a></li>
+                                            <li><a href="#">Another action</a></li>
+                                            <li><a href="#">Something else here</a></li>
+                                            <li role="separator" class="divider"></li>
+                                            <li><a href="#">Separated link</a></li>
+                                        </ul>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <img src="{{ url_for('static',filename='images/dai.png')}}" alt="" >
+                                <select name="shenfen" id=""class="the-select" >
+                                    <option value=""></option>
+                                    <option value="">视频监控APP项目</option>
+                                    <option value="">个人商品售卖系统</option>
+                                </select>
+                            </div>
+                        </div>
+                   
+                </form>
+                <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+                    确认
+                </button>
+                <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+                    取消
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="the-bottom">
+        <span>
+            <img src="{{ url_for('static',filename='images/杰普公司.png')}}" alt="">
+        </span>
+        <span>
+            <img src="{{ url_for('static',filename='images/杰普宣言.png')}}" alt="">
+        </span>
+    </div>
+    <script src="{{ url_for('static',filename='bootstrap-3.3.7/bootstrap-3.3.7/js/tests/vendor/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='bootstrap-3.3.7/bootstrap-3.3.7/dist/js/bootstrap.js')}}"></script>
+</body>
+</html>

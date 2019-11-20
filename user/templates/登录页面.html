@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/登录界面.css') }}">
+</head>
+<body>
+    <div class="the-top">
+        <span class="t1">项目需求管理网站</span>
+        <span class="t2"><img src="{{ url_for('static',filename="images/briup_logo.png") }}" alt=""> </span>
+    </div>
+    <div class="the-center">
+        <div class="c1">
+            <img src="{{ url_for('static',filename="images/登录页面1.png") }}" alt="">
+        </div>
+        <div class="c2">
+            <form action="#" method="POST" target="_self">
+                <div class="c2-1">
+                    <img src="{{ url_for('static',filename="images/登录页面3.png") }}" alt="">
+                    用户登录
+                </div>
+                <div class="c2-2">
+                    <!-- <label for="user"><img src="./images/登录页面4.png" alt=""></label> -->
+                    <input type="text" id="user" name="username" placeholder="请输入用户账号">
+                </div>
+                <div class="c2-3">
+                    <!-- <label for=""><img src="./images/登录页面5.png" alt=""></label> -->
+                    <input type="password" name="" placeholder="请输入用户密码"
+                           id="input" class="form-control" required="required" title="">
+                </div>
+                <div class="c2-4">
+                    <!-- <label for=""><img src="./images/登录页面6.png" alt=""></label> -->
+                    <input type="text" placeholder="请输入验证码">
+                    <img src="{{ url_for('static',filename="images/登录页面7.png") }}" alt="" >
+                </div>
+                <div class="c2-5">
+                    <input type="submit" value="登录">
+                </div> 
+            </form>
+        </div>
+    </div>
+    <div class="the-bottom">
+        <span>
+            <img src="{{ url_for('static',filename="images/杰普公司.png" )}}" alt="">
+        </span>
+        <span>
+            <img src="{{ url_for('static',filename="images/杰普宣言.png") }}" alt="">
+        </span>
+    </div>
+</body>
+</html>

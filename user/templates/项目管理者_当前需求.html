@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/项目管理者_当前需求.css')}}">
+</head>
+<body>
+    <div class="the-top">
+        <div class="top-head">
+            <div class="t1">
+                <img src="{{ url_for('static',filename='images/briup_logo.png')}}" alt="">
+                <span>上海杰普科技有限公司</span> 
+                <span>|项目需求管理管理系统</span>
+            </div>
+            <div class="t2">
+                <span>项目管理者</span>
+                <img src="{{ url_for('static',filename='images/头像.png')}}" alt="">
+                <span>fdgadsg</span>
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="c1">
+                <div><input type="button" value="当前需求" ></div>
+                <div><input type="button" value="未通过需求"></div>
+                <div><input type="button" value="已通过需求"></div>
+                <div><input type="button" value="个人信息"></div>
+                <div><input type="button" value="关于我们"></div>
+            </div>
+            <div class="c2">
+                <div class="c2-head">
+                    <span>查看需求</span>
+                    <div class="c2-head-left">
+                        <span>选择所属项目：</span>
+                        <!-- <div class="dropdown">
+                            <img class="c2-img" src="{ url_for('static',filename='images/dai.png')}}" alt="">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                视频监控app项目
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#">视频监控app项目</a></li>
+                                <li><a href="#">百宝箱</a></li>
+                                <li><a href="#">个接口规范</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div> -->
+                        <div class="xiala">
+                            <img src="{{ url_for('static',filename='images/dai.png')}}" alt="" >
+                            <select name="xiangmu" id="" class="the-select" >
+                                <option value="">视频监控APP项目</option>
+                                <option value="">个人商品售卖系统</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="c2-right">
+                        <input type="text" placeholder="APP开发">
+                        <div class="btn-group" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default">搜索</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="c2-center">
+                    <div class="neirong-1">
+                        <span></span>
+                    </div>
+                    <div class="neirong-2">
+                        <span></span>
+                    </div>
+                    <div class="neirong-3">
+                        <span></span>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div class="the-bottom">
+        <span>
+            <img src="{{ url_for('static',filename='images/杰普公司.png')}}" alt="">
+        </span>
+        <span>
+            <img src="{{ url_for('static',filename='images/杰普宣言.png')}}" alt="">
+        </span>
+    </div>
+    <script src="{{ url_for('static',filename='bootstrap-3.3.7/bootstrap-3.3.7/js/tests/vendor/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='bootstrap-3.3.7/bootstrap-3.3.7/dist/js/bootstrap.js')}}"></script>
+</body>
+</html>

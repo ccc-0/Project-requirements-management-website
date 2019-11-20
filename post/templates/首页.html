@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/首页.css')}}">
+</head>
+<body>
+    <div class="the-top">
+        <div class="top-head">
+            <div class="t1">
+                <img src="{{ url_for('static',filename='images/briup_logo.png')}}" alt="">
+                <span>需求管理系统后台管理</span> 
+            </div>
+            <div class="t2">
+                <span>管理员</span>
+                <img src="{{ url_for('static',filename='images/头像.png')}}" alt="">
+                <span>fdgadsg</span>
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="center-head">
+                <span>&emsp;&emsp;用户管理</span>
+                <div class="head-right">
+                    <input type="text" placeholder="请输入用户信息">
+                    <input type="button" value="搜索" >
+                </div>
+            </div>
+            <div class="center-center">
+                <table class="table">
+                    <th>
+                        <td>头像</td>
+                        <td>账号</td>
+                        <td>昵称</td>
+                        <td>角色</td>
+                        <td>所属组</td>
+                        <td>&emsp;</td>
+                        <td>&emsp;</td>
+                    </th>
+                    <tr>
+                        <td></td>
+                        <td><img src="{{ url_for('static',filename='images/头像.png')}}" alt=""></td>
+                        <td>Demand@163.com</td>
+                        <td>Admin9526</td>
+                        <td>软件客户</td>
+                        <td>视频监控APP项目</td>
+                        <td><a href="#" class="xiugai">修改</a></td>
+                        <td><a href="#" class="dongjie">冻结</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><img src="{{ url_for('static',filename='images/头像.png')}}" alt=""></td>
+                        <td>HelloWor@163.com</td>
+                        <td>Admin9528</td>
+                        <td>项目管理者</td>
+                        <td>视频监控APP项目</td>
+                        <td><a href="#" class="xiugai">修改</a></td>
+                        <td><a href="#" class="dongjie">冻结</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><img src="{{ url_for('static',filename='images/头像.png')}}" alt=""></td>
+                        <td>DPython@163.com</td>
+                        <td>Admin9529</td>
+                        <td>软件开发者</td>
+                        <td>个人商品售卖项目</td>
+                        <td><a href="#" class="xiugai">修改</a></td>
+                        <td><a href="#" class="dongjie">冻结</a></td>
+                    </tr>
+                </table>
+                <div class="xinzeng">
+                    <a href="#">
+                        <img src="{{ url_for('static',filename='images/加号.png')}}" alt="">
+                        新增用户
+                    </a>
+                </div>
+            </div>
+            <div class="center-head">
+                <span>&emsp;&emsp;项目组管理</span>
+                <div class="head-right">
+                    <input type="text" placeholder="请输入项目组信息">
+                    <input type="button" value="搜索" >
+                </div>
+            </div>
+            <div class="center-bottom">
+                <table class="table">
+                    <th>
+                        <td>项目组名</td>
+                        <td>项目负责人</td>
+                        <td>成立时间</td>
+                        <td>成员数</td>
+                        <td>&emsp;</td>
+                        <td>&emsp;</td>
+                    </th>
+                    <tr>
+                        <td></td>
+                        <td>视频监控APP项目</td>
+                        <td>Admin9527</td>
+                        <td>2019-09-04 15:41:33</td>
+                        <td>4</td>
+                        <td><a href="#" class="xiugai">修改</a></td>
+                        <td><a href="#" class="dongjie">冻结</a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>个人商品售卖项目</td>
+                        <td>Admin9529</td>
+                        <td>2019-09-04 15:41:33</td>
+                        <td>3</td>
+                        <td><a href="#" class="xiugai">修改</a></td>
+                        <td><a href="#" class="dongjie">冻结</a></td>
+                    </tr>
+                </table>
+                <div class="xinzeng">
+                    <a href="#">
+                        <img src="{{ url_for('static',filename='images/加号.png')}}" alt="">
+                        新增项目组
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="the-bottom">
+        <span>
+            <img src="{{ url_for('static',filename='images/杰普公司.png')}}" alt="">
+        </span>
+        <span>
+            <img src="{{ url_for('static',filename='images/杰普宣言.png')}}" alt="">
+        </span>
+    </div>
+    <script src="{{ url_for('static',filename='bootstrap-3.3.7/bootstrap-3.3.7/js/tests/vendor/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='bootstrap-3.3.7/bootstrap-3.3.7/dist/js/bootstrap.js')}}"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/个人信息.css')}}">
+</head>
+<body>
+    <div class="the-top">
+        <div class="top-head">
+            <div class="t1">
+                <img src="{{ url_for('static',filename='images/briup_logo.png')}}" alt="">
+                <span>上海杰普科技有限公司</span> 
+                <span>|项目需求管理管理系统</span>
+            </div>
+            <div class="t2">
+                <span>软件开发者</span>
+                <img src="{{ url_for('static',filename='images/头像.png')}}" alt="">
+                <span>fdgadsg</span>
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="c1">
+
+                <div><a href="{{ url_for('user.developer_demand')}}"><input type="button" value="当前需求" ></a></div>
+                <div><a href="{{ url_for('user.np_damand')}}"><input type="button" value="未通过需求"></a></div>
+                <div><a href="{{ url_for('user.ap_damand')}}"><input type="button" value="已通过需求" ></a></div>
+                <div><a href="#"><input type="button" value="个人信息" ></a></div>
+                <div><a href="{{ url_for('user.self_info')}}"><input type="button" value="关于我们" ></a></div>
+
+            </div>
+            <div class="c2">
+                <form action="#" class="c2-one" method="POST">
+                    <div class="c2-one-head">
+                        <span>基本信息</span>
+                        <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+                            保存
+                        </button>
+                    </div>
+                    <!-- <div class="c2-one-center"> -->
+                        <div class="c2-one-center-left">
+                            <img src="{{ url_for('static',filename='images/个人信息头像.png')}}" alt="">
+                            <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+                                上传头像
+                            </button>
+                        </div>
+                        <div class="c2-one-center-right-1">
+                            <p>昵称</p>
+                            <input type="text" value="Admin9527">
+                        </div>
+                        <div class="c2-one-center-right-2">
+                            <p>性别</p>
+                            <div class="radio">
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked> 男
+                                </label>
+                                <label class="radio-inline">
+                                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 女
+                                </label>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </form>
+                <div class="c2-two" >
+                    <div class="c2-two-head">
+                        <span>安全信息</span>
+                    </div>
+                    <div class="c2-two-center-1">
+                        <div class="c2-two-center-1-left">
+                            <p>账户密码</p>
+                            <span>当前密码强度：</span><span>强</span>
+                        </div>
+                        <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+                            点击修改
+                        </button>
+                    </div>
+                    <div class="c2-two-center-2">
+                        <div class="c2-two-center-2-left">
+                            <p>更换绑定邮箱</p>
+                            <span>已绑定邮箱：</span><span>de***@163.com</span>
+                        </div>
+                        <button type="button" id="myButton" data-loading-text="Loading..." class="btn btn-primary" autocomplete="off">
+                            点击修改
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="the-bottom">
+        <span>
+            <img src="{{ url_for('static',filename='images/杰普公司.png')}}" alt="">
+        </span>
+        <span>
+            <img src="{{ url_for('static',filename='images/杰普宣言.png')}}" alt="">
+        </span>
+    </div>
+    <script src="{{ url_for('static',filename='bootstrap-3.3.7/bootstrap-3.3.7/js/tests/vendor/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='bootstrap-3.3.7/bootstrap-3.3.7/dist/js/bootstrap.js')}}"></script>
+</body>
+</html>
